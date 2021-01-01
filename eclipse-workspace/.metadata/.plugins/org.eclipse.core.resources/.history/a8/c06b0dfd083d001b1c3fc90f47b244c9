@@ -1,0 +1,9 @@
+package java8;
+
+public class Outer {
+	
+	private int m =100;
+	private static int n=90;
+	
+
+}

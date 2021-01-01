@@ -1,0 +1,27 @@
+package java8;
+
+
+// This class is called top class
+// no static, private and protected 
+public class Outer {
+	
+	private int m =100;
+	private static int n=90;
+	
+	public void showx() {
+		System.out.println("show m= "+m);
+		System.out.println("show n= "+n);
+		
+	} 
+	// This is non static inner class
+	// This inner class we can access with the instance of inclosing
+	// Inner class we cannot load with the help of outer class
+	//That is why we cannot declare anthing static inside it
+
+	class Inner {
+		private int p=100;
+		// private  static int q=200;
+		
+		
+	}
+}

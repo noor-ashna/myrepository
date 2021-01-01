@@ -1,0 +1,34 @@
+spring.mvc.view.prefix=/WEB-INF/pages/
+spring.mvc.view.suffix=.jsp
+
+#Disabling thymeleaf as a view resolver
+spring.thymeleaf.enabled=false
+
+server.servlet.context-path=/google
+
+#This is for spring data +jpa + orm configuration 
+spring.datasource.url = jdbc:mysql://localhost:3306/alldata?createDatabaseIfNotExist=true
+spring.datasource.username = root
+spring.datasource.password = mysql
+## Hibernate Properties
+# The SQL dialect makes Hibernate generate better SQL for the chosen database
+spring.jpa.properties.hibernate.dialect = org.hibernate.dialect.MySQL5InnoDBDialect
+# Hibernate ddl auto (create, create-drop, validate, update)
+spring.jpa.hibernate.ddl-auto = update
+spring.jpa.show-sql=true
+spring.jpa.properties.hibernate.format_sql=true
+
+#server.servlet.session.timeout=30s
+#server.servlet.session.timeout=60s
+#server.port=444
+#Email setting to send email by spring boot
+spring.mail.default-encoding=UTF-8
+spring.mail.host=smtp.gmail.com
+spring.mail.username=javatech1000@gmail.com
+spring.mail.password=Iwillsee
+spring.mail.port=587
+spring.mail.protocol=smtp
+spring.mail.test-connection=false
+spring.mail.properties.mail.smtp.auth=true
+spring.mail.properties.mail.smtp.starttls.enable=true
+

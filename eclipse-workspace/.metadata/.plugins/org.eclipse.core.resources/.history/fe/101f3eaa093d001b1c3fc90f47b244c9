@@ -1,0 +1,14 @@
+package java8;
+
+public class Outer {
+	
+	private int m =100;
+	private static int n=90;
+	
+	public void showx() {
+		
+		System.out.println("show m= "+m);
+		System.out.println("show n= "+n);
+	}
+
+}

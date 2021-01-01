@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aop-reference-model>
+<aop-project name="previous_spring_boot_login"/>
+<aop-project name="Springboot-backend"/>
+<aop-project name="HospitalEmployeeService"/>
+<aop-project name="Customer_mvc_login-boot-2.xx"/>
+<aop-project name="spring-boot-login"/>
+<aop-project name="CodeRefactoring_login-mvc"/>
+<aop-project name="jocker-db-connection"/>
+<aop-project name="customer-mvc-service"/>
+<aop-project name="Second_login-mvc"/>
+<aop-project name="ProductManager"/>
+<aop-project name="Spring-boot-customer service"/>
+<aop-project name="SpringBootFormValidationJSP"/>
+<aop-project name="thymeleaf_intro"/>
+</aop-reference-model>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+			<item value="C:\Users\Noor\eclipse-workspace\jocker-db-connection"/>
+			<item value="C:\Users\Noor\eclipse-workspace\jocker-mvc"/>
+			<item value="C:\Users\Noor\eclipse-workspace\hibernate-ornma\src\main\java\com\main\LoadMango.java"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<item key="catalog" value="All Catalogs"/>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+		</list>
+		<list key="groupId">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+		<list key="ciManagementUrl">
+		</list>
+		<list key="ciManagementSystem">
+		</list>
+		<list key="issueManagementSystem">
+		</list>
+		<list key="issueManagementUrl">
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="MavenProjectImportWizardPage">
+		<list key="rootDirectory">
+			<item value="C:\Users\Noor\Downloads\SpringBootRegistrationLogin"/>
+			<item value="C:\Users\Noor\Downloads\spring-cloud-config-server"/>
+			<item value="C:\Users\Noor\Downloads\spring-web-services-master\spring-web-services-master\restful-web-services"/>
+			<item value="C:\Users\Noor\Downloads\jpa-in-10-steps"/>
+			<item value="C:\Users\Noor\Downloads\Spring-restful-web-services"/>
+			<item value="C:\Users\Noor\Downloads\restful-web-services"/>
+			<item value="C:\Users\Noor\Downloads\com.it.technology\com.it.technology"/>
+			<item value="C:\Users\Noor\Downloads\spring-in-5-steps"/>
+			<item value="C:\Users\Noor\Downloads\newthymleaf_project"/>
+			<item value="C:\Users\Noor\Downloads\theymleafdemo1"/>
+			<item value="C:\Users\Noor\Downloads\theymleafdemo"/>
+			<item value="C:\Users\Noor\Downloads\Learning_JPA"/>
+			<item value="C:\Users\Noor\Downloads\Ex_Files_Spring_Security"/>
+			<item value="C:\Users\Noor\Desktop\Complete_Spring-boot-2x"/>
+			<item value="C:\Users\Noor\Desktop\spring-boot-login-spring-security"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="Maven_project"/>
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.ui.internal.dialogs.MavenRepositorySearchDialog">
+		<item key="width" value="480"/>
+		<item key="height" value="523"/>
+		<item key="x" value="443"/>
+		<item key="y" value="16"/>
+	</section>
+</section>

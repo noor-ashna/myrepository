@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="NewWizardAction">
+		<item key="NewWizardSelectionPage.STORE_SELECTED_ID" value="org.eclipse.jdt.ui.wizards.JavaProjectWizard"/>
+		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
+		</list>
+	</section>
+	<section name="ExternalProjectImportWizard">
+		<item key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED" value="true"/>
+		<item key="WizardProjectsImportPage.STORE_CLOSE_CREATED_PROJECTS_ID" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_HIDE_CONFLICTING_PROJECTS_ID" value="false"/>
+		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value=""/>
+		</list>
+		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
+			<item value="C:\Users\Noor\Downloads\SpringBootRegistrationLogin.zip"/>
+			<item value="C:\Users\Noor\Downloads\SpringBootErrorHandling.zip"/>
+			<item value="C:\Users\Noor\Downloads\ProductManager-SpringBoot.zip"/>
+			<item value="C:\Users\Noor\Desktop\spring-boot-login-spring-security.zip"/>
+			<item value="C:\Users\Noor\Downloads\SpringBootFormValidationJSP.zip"/>
+			<item value="C:\Users\Noor\Downloads\customer-mvc-service-boot-2.x-edit-delete-dog.zip"/>
+			<item value="C:\Users\Noor\Desktop\login-mvc-delete-edit.zip"/>
+			<item value="C:\Users\Noor\Desktop\login-mvc-signup-show-all.zip"/>
+			<item value="C:\Users\Noor\Desktop\login-mvc.zip"/>
+			<item value="C:\Users\Noor\Downloads\customer-mvc-service-boot-2.x-rest-add-fetch-saving-database.zip"/>
+			<item value="C:\Users\Noor\Desktop\jocker-db-connection.zip"/>
+			<item value="C:\Users\Noor\Downloads\customer-mvc-service-boot-2-rest.x.zip"/>
+			<item value="C:\Users\Noor\Downloads\spring-boot-login-rest-api.zip"/>
+			<item value="C:\Users\Noor\Downloads\customer-mvc-service-boot-2.x-simple-email.zip"/>
+			<item value="C:\Users\Noor\Downloads\login-mvc-delete-edit.zip"/>
+			<item value="C:\Users\Noor\Downloads\SpringBoot-AnimeService.zip"/>
+			<item value="C:\Users\Noor\Downloads\customer-mvc-service-boot-2.x (1).zip"/>
+			<item value="C:\Users\Noor\Downloads\customer-mvc-service-boot-2.x.zip"/>
+			<item value="C:\Users\Noor\Desktop\Spring mvc\All projects\signin-web.zip"/>
+			<item value="C:\Users\Noor\Desktop\Spring mvc\All projects\movies_mvc.zip"/>
+		</list>
+	</section>
+	<section name="CleanDialogSettings">
+		<item key="DIALOG_X_ORIGIN" value="437"/>
+		<item key="DIALOG_Y_ORIGIN" value="110"/>
+		<item key="DIALOG_WIDTH" value="492"/>
+		<item key="DIALOG_HEIGHT" value="381"/>
+		<item key="TOGGLE_SELECTED" value="false"/>
+	</section>
+	<section name="SmartImportWizard">
+		<item key="SmartImportRootWizardPage.STORE_HIDE_ALREADY_OPEN" value="false"/>
+		<item key="SmartImportRootWizardPage.STORE_CLOSE_IMPORTED" value="false"/>
+		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
+		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
+	</section>
+	<section name="ChooseWorkspaceDialogSettings">
+		<item key="DIALOG_X_ORIGIN" value="542"/>
+		<item key="DIALOG_Y_ORIGIN" value="151"/>
+	</section>
+	<section name="WORKBENCH_SETTINGS">
+		<list key="ENABLED_TRANSFERS">
+		</list>
+	</section>
+</section>

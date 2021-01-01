@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;SpringBootRunner.java&apos; to &apos;First-springboot-project/src/main/java&apos;&#x0D;&#x0A;- Original project: &apos;customer-mvc-service-boot-2.x&apos;&#x0D;&#x0A;- Destination element: &apos;First-springboot-project/src/main/java&apos;&#x0D;&#x0A;- Original element: &apos;com.rab3tech.SpringBootRunner.java&apos;" description="Copy compilation unit" destination="=First-springboot-project/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/" element1="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.rab3tech{SpringBootRunner.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1606777258253" units="1" version="1.0"/>
+</session>

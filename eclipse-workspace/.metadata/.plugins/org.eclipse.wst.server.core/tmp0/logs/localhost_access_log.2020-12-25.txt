@@ -1,0 +1,17 @@
+127.0.0.1 - - [25/Dec/2020:00:57:30 -0500] "GET / HTTP/1.1" 404 709
+0:0:0:0:0:0:0:1 - - [25/Dec/2020:00:57:34 -0500] "GET /Admin-Employees/ HTTP/1.1" 200 3431
+0:0:0:0:0:0:0:1 - - [25/Dec/2020:00:57:34 -0500] "GET /Admin-Employees/img/ HTTP/1.1" 404 682
+0:0:0:0:0:0:0:1 - - [25/Dec/2020:00:57:34 -0500] "GET /Admin-Employees/img/adminReg.jpg HTTP/1.1" 404 682
+0:0:0:0:0:0:0:1 - - [25/Dec/2020:00:57:35 -0500] "GET /Admin-Employees/img/adminReg.jpg HTTP/1.1" 404 682
+0:0:0:0:0:0:0:1 - - [25/Dec/2020:00:57:42 -0500] "POST /Admin-Employees/register HTTP/1.1" 404 682
+0:0:0:0:0:0:0:1 - - [25/Dec/2020:00:57:56 -0500] "GET /Admin-Employees/img/adminReg.jpg HTTP/1.1" 404 682
+0:0:0:0:0:0:0:1 - - [25/Dec/2020:00:57:56 -0500] "GET /Admin-Employees/img/ HTTP/1.1" 404 682
+0:0:0:0:0:0:0:1 - - [25/Dec/2020:00:57:56 -0500] "GET /Admin-Employees/img/adminReg.jpg HTTP/1.1" 404 682
+0:0:0:0:0:0:0:1 - - [25/Dec/2020:00:57:58 -0500] "GET /Admin-Employees/showMyLoginPage HTTP/1.1" 404 682
+0:0:0:0:0:0:0:1 - - [25/Dec/2020:00:58:04 -0500] "GET /Admin-Employees/img/adminReg.jpg HTTP/1.1" 404 682
+0:0:0:0:0:0:0:1 - - [25/Dec/2020:00:58:04 -0500] "GET /Admin-Employees/img/ HTTP/1.1" 404 682
+0:0:0:0:0:0:0:1 - - [25/Dec/2020:00:58:04 -0500] "GET /Admin-Employees/img/adminReg.jpg HTTP/1.1" 404 682
+0:0:0:0:0:0:0:1 - - [25/Dec/2020:00:58:06 -0500] "POST /Admin-Employees/register HTTP/1.1" 404 682
+0:0:0:0:0:0:0:1 - - [25/Dec/2020:00:58:10 -0500] "GET /Admin-Employees/img/adminReg.jpg HTTP/1.1" 404 682
+0:0:0:0:0:0:0:1 - - [25/Dec/2020:00:58:10 -0500] "GET /Admin-Employees/img/ HTTP/1.1" 404 682
+0:0:0:0:0:0:0:1 - - [25/Dec/2020:00:58:10 -0500] "GET /Admin-Employees/img/adminReg.jpg HTTP/1.1" 404 682

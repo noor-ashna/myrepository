@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;customers.html&apos; to &apos;employee&apos;&#x0D;&#x0A;- Original project: &apos;banking-web&apos;&#x0D;&#x0A;- Destination element: &apos;employee&apos;&#x0D;&#x0A;- Original element: &apos;customers.html&apos;" description="Copy file" element1="src/main/resources/templates/admin/customers.html" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1608187093045" target="/banking-web/src/main/resources/templates/employee" units="0" version="1.0"/>
+</session>

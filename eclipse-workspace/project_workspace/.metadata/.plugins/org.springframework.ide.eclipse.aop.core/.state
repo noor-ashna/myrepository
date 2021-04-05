@@ -1,2 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<aop-reference-model/>
+<aop-reference-model>
+<aop-project name="data.eater"/>
+<aop-project name="banking-api"/>
+<aop-project name="eurekaserver"/>
+<aop-project name="banking-web"/>
+</aop-reference-model>

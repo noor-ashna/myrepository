@@ -1,5 +1,0 @@
-package com.thymeleaf.controller;
-
-public class HelloWorldController {
-
-}

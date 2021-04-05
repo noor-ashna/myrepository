@@ -4,7 +4,7 @@ package java8;
 // final classes= String, integer, Scanner ,System, Long
 public class Jocker {
 
-	private int heyyy=100;
+	private int hey=100;
 	private static int mxmx=90;
 	
 	public static void main(String[] args) {

@@ -2,8 +2,9 @@
 <section name="Workbench">
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
-			<item value="C:\Users\Noor\Desktop\erurka_microservices"/>
 			<item value="C:\Users\Noor\Downloads\data.eater"/>
+			<item value="C:\Users\Noor\git\cubic-bank\banking-api\src\main\java\com\rab3tech\admin\controller\CustomerTransactionController.java"/>
+			<item value="C:\Users\Noor\Desktop\erurka_microservices"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -13,5 +14,9 @@
 			<item value="[groupId].[artifactId]-[version]"/>
 			<item value="[name]"/>
 		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
 	</section>
 </section>

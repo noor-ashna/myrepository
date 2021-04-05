@@ -13,6 +13,11 @@
 			<item value=""/>
 		</list>
 		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
+			<item value="C:\Users\Noor\Desktop\Java_NovemberBatch\Spring data jpa\login-mvc-tech-boot-spring-data-jpa.zip"/>
+			<item value="C:\Users\Noor\Downloads\login-mvc-tech-boot-rest-api-desihm.zip"/>
+			<item value="C:\Users\Noor\Downloads\login-mvc-tech-boot.zip"/>
+			<item value="C:\Users\Noor\Downloads\SpringBootInMemoryFormAuth.zip"/>
+			<item value="C:\Users\Noor\Videos\Captures\REST API\Day two\customer-mvc-service-boot-2-rest.x.zip"/>
 			<item value="C:\Users\Noor\Downloads\SpringBootRegistrationLogin.zip"/>
 			<item value="C:\Users\Noor\Downloads\SpringBootErrorHandling.zip"/>
 			<item value="C:\Users\Noor\Downloads\ProductManager-SpringBoot.zip"/>
@@ -28,11 +33,6 @@
 			<item value="C:\Users\Noor\Downloads\spring-boot-login-rest-api.zip"/>
 			<item value="C:\Users\Noor\Downloads\customer-mvc-service-boot-2.x-simple-email.zip"/>
 			<item value="C:\Users\Noor\Downloads\login-mvc-delete-edit.zip"/>
-			<item value="C:\Users\Noor\Downloads\SpringBoot-AnimeService.zip"/>
-			<item value="C:\Users\Noor\Downloads\customer-mvc-service-boot-2.x (1).zip"/>
-			<item value="C:\Users\Noor\Downloads\customer-mvc-service-boot-2.x.zip"/>
-			<item value="C:\Users\Noor\Desktop\Spring mvc\All projects\signin-web.zip"/>
-			<item value="C:\Users\Noor\Desktop\Spring mvc\All projects\movies_mvc.zip"/>
 		</list>
 	</section>
 	<section name="CleanDialogSettings">

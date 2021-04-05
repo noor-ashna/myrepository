@@ -11,7 +11,9 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 import com.rab3tech.controller.SignUp;
+import com.rab3tech.dao.DogDaoRepository;
 import com.rab3tech.dao.SignupDaoRepository;
+import com.rab3tech.dao.entity.DogEntity;
 import com.rab3tech.dao.entity.SignupEntity;
 
 /**
@@ -27,6 +29,9 @@ public class SignupServiceImpl implements SignupService {
 
 	@Autowired
 	private SignupDaoRepository signupDao;
+	
+	@Autowired
+	private DogDaoRepository dogDaoRepository;
 	
 	@Autowired
 	private JavaMailSender emailSender;
@@ -85,7 +90,17 @@ public class SignupServiceImpl implements SignupService {
 	public void save(SignUp signUp) {
 		SignupEntity entity=new SignupEntity();
 		BeanUtils.copyProperties(signUp, entity);
-		signupDao.save(entity);
+		
+		DogEntity dogEntity=new DogEntity();
+		dogEntity.setBreed("Owie");
+		dogEntity.setColor("white");
+		dogEntity.setEmail("comingsoon@gmail.com");
+		dogEntity.setName("Tommy");
+		dogEntity.setTail(1);
+		//Setting child record inside master
+		dogEntity.setSignupEntity(entity);
+		
+		dogDaoRepository.save(dogEntity);
 	}
 
 	@Override

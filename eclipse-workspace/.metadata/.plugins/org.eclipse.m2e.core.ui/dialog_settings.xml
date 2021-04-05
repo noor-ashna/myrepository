@@ -2,6 +2,7 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="C:\Users\Noor\eclipse-workspace\com.unitTesting\src\main\java\com\unit_testingintro\Application.java"/>
 			<item value="C:\Users\Noor\eclipse-workspace\jocker-db-connection"/>
 			<item value="C:\Users\Noor\eclipse-workspace\jocker-mvc"/>
 			<item value="C:\Users\Noor\eclipse-workspace\hibernate-ornma\src\main\java\com\main\LoadMango.java"/>
@@ -47,10 +48,12 @@
 	</section>
 	<section name="MavenProjectWizardArtifactPage">
 		<list key="groupId">
+			<item value="com.unit-testing"/>
 		</list>
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="mockito-intro"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -78,6 +81,10 @@
 	</section>
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="C:\Users\Noor\Downloads\spring-microservices-master\spring-microservices-master"/>
+			<item value="C:\Users\Noor\Downloads\spring-microservices-master\spring-microservices-master\02.restful-web-services"/>
+			<item value="C:\Users\Noor\Downloads\spring-microservices-master"/>
+			<item value="C:\Users\Noor\Downloads\Spring-boot---Angular-master"/>
 			<item value="C:\Users\Noor\Downloads\SpringBootRegistrationLogin"/>
 			<item value="C:\Users\Noor\Downloads\spring-cloud-config-server"/>
 			<item value="C:\Users\Noor\Downloads\spring-web-services-master\spring-web-services-master\restful-web-services"/>
@@ -89,10 +96,6 @@
 			<item value="C:\Users\Noor\Downloads\newthymleaf_project"/>
 			<item value="C:\Users\Noor\Downloads\theymleafdemo1"/>
 			<item value="C:\Users\Noor\Downloads\theymleafdemo"/>
-			<item value="C:\Users\Noor\Downloads\Learning_JPA"/>
-			<item value="C:\Users\Noor\Downloads\Ex_Files_Spring_Security"/>
-			<item value="C:\Users\Noor\Desktop\Complete_Spring-boot-2x"/>
-			<item value="C:\Users\Noor\Desktop\spring-boot-login-spring-security"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="Maven_project"/>

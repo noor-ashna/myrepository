@@ -1,0 +1,5 @@
+package com.rab3tech.admin.controller;
+
+public class BankAdminController {
+
+}

@@ -1,6 +1,5 @@
 package com.rab3tech.controller;
 
-import java.sql.Date;
 import java.util.List;
 
 import javax.servlet.http.HttpServletRequest;
@@ -34,7 +33,7 @@ public class AuthController {
 	@PostMapping("changePassword")
 	public String changePasswordPost(int sid,String newPassword,
 			String confirmPassword, Model model) {
-		if(!newPassword.equals(confirmPassword)){
+		if(!newPassword.equals(confirmPassword)){ 
 			SignUp signUp=signupService.findById(sid);
 			//Adding data into request scope
 			model.addAttribute("signUp", signUp);

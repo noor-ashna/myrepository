@@ -1,6 +1,5 @@
 package com.rab3tech.controller;
 
-import java.sql.Date;
 import java.util.List;
 
 import javax.servlet.http.HttpServletRequest;
@@ -13,7 +12,9 @@ import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
+import com.rab3tech.service.DogService;
 import com.rab3tech.service.SignupService;
+import com.rab3tech.vo.Dog;
 
 //This is controller
 @Controller
@@ -21,15 +22,14 @@ public class AuthController {
 	
 	
 	public static void main(String[] args) {
-		java.util.Date date=new java.util.Date(1605809787035L);
-		System.out.println(date);
 		
-		java.util.Date edate=new java.util.Date(1605804387035L);
-		System.out.println(edate);
 	}
 	
 	@Autowired
 	private SignupService signupService;
+	
+	@Autowired
+	private DogService dogService;
 	
 	@PostMapping("changePassword")
 	public String changePasswordPost(int sid,String newPassword,
@@ -86,6 +86,31 @@ public class AuthController {
 	public String signupUser() {
 		return "usignup";// login.jsp
 	}
+	
+	
+	
+
+	@GetMapping("/showDogs")
+	public String showDogs(@RequestParam int pid, Model model) {
+		List<Dog> dogs=dogService.findDogs(pid);
+		model.addAttribute("crydogs", dogs); // "dogs" -> attribute name , dogs => object name
+		return "dogs"; // dogs-> view name
+	}
+	
+	@GetMapping("/addDog")
+	public String addDog(@RequestParam int pid, Model model) {
+		System.out.println("pidpidpidpidpidpidpidpidpidpidpidpidpidpidpidpidpidpidpidpid");
+		return "addDog"; // addDog.jsp
+	}
+	
+
+	@PostMapping("/addDog")
+	public String addDogPost(@ModelAttribute Dog dog, Model model) {
+		System.out.println("pidpidpidpidpidpidpidpidpidpidpidpidpidpidpidpidpidpidpidpid");
+		dogService.save(dog);
+		return "addDog"; // addDog.jsp
+	}
+
 	
 	@PostMapping("signup")
 	public String signupPost(@ModelAttribute SignUp signUp,Model model) {

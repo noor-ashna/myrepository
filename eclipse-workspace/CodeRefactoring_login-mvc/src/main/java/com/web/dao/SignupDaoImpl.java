@@ -74,4 +74,16 @@ public class SignupDaoImpl implements SignupDao {
 		jdbcTemplate.update(sql, username);
 	}
 
+	@Override
+	public void update(SignupEntity entity) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void save(SignupEntity entity) {
+		// TODO Auto-generated method stub
+		
+	}
+
 }

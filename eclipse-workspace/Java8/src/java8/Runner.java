@@ -1,10 +1,12 @@
 package java8;
 
 
-@FunctionalInterface
-public interface Runner {
+@FunctionalInterface      // we can only put one abstract method when we use  @FunctionalInterface because functional interface 
+public interface Runner {     // has one abstract method
 	
-	public void picker();  // we can only put one abstract method when we put @FunctionalInterface
-	
+	public void picker();  // This is abstract method, abstract method has no defination 
 
+	
+	                        
+              
 }

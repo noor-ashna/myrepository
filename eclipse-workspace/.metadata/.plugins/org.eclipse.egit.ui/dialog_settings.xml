@@ -8,6 +8,7 @@
 	</list>
 	<list key="RepositorySelectionPage.UsedUris">
 		<item value="https://github.com/JavaHunk2020/cubic-bank.git"/>
+		<item value="https://github.com/in28minutes/spring-unit-testing-with-junit-and-mockito.git"/>
 	</list>
 	<section name="GitImportWizard">
 		<item key="GitProjectsImportPage.STORE_NESTED_PROJECTS" value="true"/>

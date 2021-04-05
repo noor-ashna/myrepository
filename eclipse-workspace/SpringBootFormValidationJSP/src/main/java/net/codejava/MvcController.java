@@ -17,7 +17,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class MvcController {
 	
 	@RequestMapping("/")
-	public String home() {
+	public String home() { 
 		System.out.println("Going home...");
 		return "index";
 	}

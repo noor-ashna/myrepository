@@ -1,12 +1,16 @@
 package com.rab3tech.dao.entity;
 
 import java.sql.Timestamp;
+import java.util.List;
 
+import javax.persistence.CascadeType;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.OneToMany;
 import javax.persistence.Table;
+
 
 @Entity
 @Table(name="signup_tbl")
@@ -23,6 +27,18 @@ public class SignupEntity {
 	private String photo;
 	private Timestamp doe;
 	
+	//mappedBy = means signupEntity does not have foreign 
+	//key
+	@OneToMany(cascade=CascadeType.ALL,mappedBy="signupEntity")
+	private List<DogEntity> dogs;
+	
+	public List<DogEntity> getDogs() {
+		return dogs;
+	}
+
+	public void setDogs(List<DogEntity> dogs) {
+		this.dogs = dogs;
+	}
 
 	public Timestamp getDoe() {
 		return doe;

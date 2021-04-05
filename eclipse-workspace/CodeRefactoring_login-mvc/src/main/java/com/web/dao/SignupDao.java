@@ -8,9 +8,9 @@ import com.web.dao.entity.SignupEntity;
 
 public interface SignupDao {
 
-	void update(Signup signup);
+	void update(SignupEntity entity);
 
-	void save(Signup signup);
+	void save(SignupEntity entity);
 
 	void delete(String username);
 

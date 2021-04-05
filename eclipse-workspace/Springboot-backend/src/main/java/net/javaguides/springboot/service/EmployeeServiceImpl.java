@@ -9,7 +9,7 @@ import net.javaguides.springboot.repository.EmployeeRepository;
 
 
 @Service
-public class EmployeeServiceImpl implements EmployeeService {
+public class EmployeeServiceImpl implements EmployeeService {  
 
     @Autowired
     private EmployeeRepository employeeRepository;
@@ -18,6 +18,11 @@ public class EmployeeServiceImpl implements EmployeeService {
     public List < Employee > getAllEmployees() {
         return employeeRepository.findAll();
     }
-    
+
+	@Override
+	public void saveEmployee(Employee employee) {
+		 this.employeeRepository.save(employee);
+		
+	}
     
 }
